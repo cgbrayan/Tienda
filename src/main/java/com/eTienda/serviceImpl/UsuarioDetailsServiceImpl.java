@@ -22,7 +22,7 @@ public class UsuarioDetailsServiceImpl implements UsuarioDetailsService, UserDet
     @Autowired
     private UsuarioDao usuarioDao;
     @Autowired
-    private HttpSession session;
+    private HttpSession session; 
 
     @Override
     @Transactional(readOnly = true)
